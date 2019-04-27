@@ -16,6 +16,8 @@ const setup = (initialState = {}) => {
   console.log(wrapper.debug());
 };
 
+setup();
+
 describe("render", () => {
   describe("word has not been guessed", () => {
     it("renders component without error", () => {});
