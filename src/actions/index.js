@@ -6,7 +6,6 @@ export const actionTypes = {
  * @function correctGuess
  * @returns {object} - Action object with type "CORRECT_GUESS"
  */
-
 export const correctGuess = () => {
-  return {};
+  return { type: actionTypes.CORRECT_GUESS };
 };
